@@ -1,29 +1,30 @@
+@font-face {
+    font-family: fontpadrao;
+    src: url(./font/FontsFree-Net-ProximaNovaAltRegular.ttf);
+}
+
 * {
     border: 0;
     padding: 0;
 }
+
 body {
-    width
+    font-family: fontpadrao;
 }
 
 table, th, td {
     border: solid 2px #ccc;
     border-collapse: collapse;
     padding: 5px;
-    
 }
 
-h3, .teste {
+h3, .icone {
     text-align: center;
 }
 
 .tabela {
     background-color: red;
     color: white;
-}
-
-ul, .disc {
-	list-style-type: disc;
 }
 
 .lista {
